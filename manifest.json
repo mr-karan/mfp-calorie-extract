@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "MFP Calorie Extracter",
+    "version": "1.0",
+    "description": "Extract macronutrients details about a particular food from MFP database.",
+    "icons": {
+        "48": "icons/icons8-cute-pumpkin-48.png",
+        "96": "icons/icons8-cute-pumpkin-96.png"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "clipboardWrite"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
